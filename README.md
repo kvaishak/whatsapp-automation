@@ -56,3 +56,15 @@ In your terminal run the following command to execute the script.
 Make sure to use python3 and not python.
 
 A new instance of the browser will start and you might need to login to your whatsapp account using the QR code and the code will execute automatically.
+
+## Note
+The whatsapp web layout might change un-predictably which might render our code useless.
+In order to prevent that, if you encounter any case where the code is not executing as per your use. Perform the following steps.
+
+- open whatsapp web in your browser.
+- open chrome developer tools using CMD + Shift + C.
+- Click on inspect element and chose the part for which you want to know the XPATH.
+- In our case the search element. Select it.
+- Right click on the HTML element and choose COPY -> Copy XPATH.
+- This will be your XPATH which you might have to substitute with the value in `y_arg` in the code.
+
